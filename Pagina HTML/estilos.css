@@ -1,0 +1,218 @@
+body {
+  font-family: 'Poppins';
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-size: 20px;
+}
+
+li {
+  list-style: none;
+  margin-right: 25px;
+}
+
+#primero {
+  font-size: 30px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.slogan {
+  margin-right: 120px;
+}
+
+.lista {
+  display: flex;
+}
+
+.titular {
+  text-align: center;
+  margin-top: 480px;
+}
+
+h1 {
+  font-size: 55px;
+  margin: 0;
+  color:#245c87
+
+}
+
+h2 {
+  font-size: 25px;
+  margin-bottom: 40px;
+  color:#246657;
+}
+
+a {
+  font-size: 14px;
+  background: #5cb8ff;
+  padding: 20px 30px 20px 30px;
+  color: white;
+}
+
+header {
+  background: url(fondovid.mov);
+  height: 100vh;
+  background-size: cover;
+}
+
+.contenedor {
+  max-width: 1280px;
+  width: 90%;
+  margin: auto;
+}
+
+/* ARRANCA SECCION ABOUT US */
+
+h3 {
+  text-align: center;
+  font-size: 55px;
+  font-weight: normal;
+}
+
+.contenedor-aboutus {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.imagen-aboutus {
+  margin-left: 120px ;
+width: 480px;
+height: 600px;
+
+}
+
+.contenedor-parrafo { ;
+  margin-right: 100px ;
+  width: 40%;
+}
+
+p {
+  font-size: 22px ;
+}
+
+.Bottom2 {
+  font-size: 20px;
+  font-family: Arial;
+}
+
+.contenedor-parrafo-y-boton p {
+  font-size: 18px;
+}
+
+.parrafo-final {
+  margin-bottom: 30px;
+}
+
+.contenedor-servicios {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.servicio {
+  width: 25%;
+  padding: 50px 38px 50px 38px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  color: #fff;
+}
+
+.verde {
+  background: #9CC9F0;
+}
+
+.azul {
+  background: #4A965A;
+}
+
+.servicio h4 {
+  font-size: 35px;
+  color: #17241B;
+  margin: 0;
+}
+
+.servicio img {
+  bottom: 90px;
+  border-radius: 50%;
+  float: right;
+}
+
+.servicio p {
+  font-size: 24px;
+  height: 90px;
+}
+
+.servicio ol {
+  font-size: 20px;
+}
+
+/* ARRANCA presupuesto*/
+
+.h2{
+font-style: black;
+size: "20px" ;
+justify-content: center;
+}
+.table {
+  justify-content: center;
+}
+
+
+bodycard {
+      background-color: #f0f8ff;
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .card {
+      background-color: #ffffff;
+      border: 2px solid #cce7e8;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      width: 400px;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .logo {
+      font-size: 1.8em;
+      font-weight: bold;
+      color: #2a9d8f;
+      margin-bottom: 5px;
+    }
+
+    .slogan {
+      font-style: italic;
+      color: #555;
+      margin-bottom: 15px;
+    }
+
+    .services {
+      margin: 10px 0;
+      font-size: 0.95em;
+      color: #333;
+    }
+
+    .contact {
+      margin-top: 15px;
+      font-size: 0.9em;
+      line-height: 1.6;
+      color: #444;
+    }
+
+    .website {
+      margin-top: 10px;
+      font-weight: bold;
+      color: #2a9d8f;
+    }
